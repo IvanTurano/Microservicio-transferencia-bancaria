@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notificación de Transferencia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 40px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+        .content {
+            padding: 30px;
+        }
+
+            .content p {
+                font-size: 16px;
+                color: #333;
+            }
+
+        .details {
+            background-color: #f1f3f4;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+            .details div {
+                margin-bottom: 10px;
+            }
+
+        .footer {
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>{{STATUS}}</h1>
+        </div>
+        <div class="content">
+            <p>Estimado/a cliente,</p>
+            <p>{{MESSAGE}}</p>
+
+            <div class="details">
+                <div><strong>Fecha:</strong> {{DATE}}</div>
+            </div>
+
+            <p>Gracias por confiar en nosotros.<br>Atentamente,<br><strong>Banco XYZ</strong></p>
+        </div>
+        <div class="footer">
+            © 2025 Banco XYZ. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>

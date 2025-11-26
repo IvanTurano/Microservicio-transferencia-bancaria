@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/1. Bank.Gateway/">
+    <Project Path="src/Bank.Gateway/Bank.Gateway.Api/Bank.Gateway.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/2. Bank.Transaction/">
+    <Project Path="src/Bank.Transaction/Bank.Transaction.API/Bank.Transaction.API.csproj" Id="dbb65cad-30e5-4f01-bde3-8d0b3ef9618e" />
+  </Folder>
+  <Folder Name="/src/3. Bank.Balance/">
+    <Project Path="src/Bank.Balance/Bank.Balance.API/Bank.Balance.API.csproj" Id="e6d5ede9-3548-45e1-9ad5-1387ea544367" />
+  </Folder>
+  <Folder Name="/src/4. Bank.Transfer/">
+    <Project Path="src/Bank.Transfer/Bank.Transfer.Api/Bank.Transfer.Api.csproj" Id="afbf0bf1-b2ec-4a39-9516-4e59cc88bad2" />
+  </Folder>
+  <Folder Name="/src/5. Bank.Notification/">
+    <Project Path="src/Bank.Notification/Bank.Notification.Api/Bank.Notification.Api.csproj" Id="98d333df-1719-494f-af0c-081b0a997fa3" />
+  </Folder>
+</Solution>
