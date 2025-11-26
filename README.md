@@ -1,4 +1,4 @@
-🚀 Proyecto: Trasnferencias Bancarias
+🚀 Proyecto: Transferencias Bancarias
 
 Este proyecto de backend simula transferencias bancarias utilizando una arquitectura de microservicios, lo que ha permitido una experiencia integral de desarrollo y despliegue moderno. El objetivo es ofrecer un servicio robusto, escalable y mantenible.
 
